@@ -202,7 +202,7 @@ stations_b = set(profile_weekday['역명_표준'].unique())
 common_stations = stations_a & stations_b
 print(f"  승하차(1~8호선): {len(stations_a)}개")
 print(f"  혼잡도: {len(stations_b)}개")
-print(f"  공통: {len(common_stations)}개  ← 이 역들이 핵심 분석 대상")
+print(f"  공통: {len(common_stations)}개")
 
 
 # ---------------------------------------------------------
